@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Title-->
+    <title>BOOK LIBRARY</title>
+    <!--Link-->
+    <link rel="stylesheet" href="list02.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <header class="header">
+  
+   <div class="header-1">
+        <nav>
+            <a href="" id="active">HOME</a>
+            <a href="" id="head"> LIBRARY</a>
+            <a href="" id="categorie">CATEGORIES</a>
+            <a href="" id="head"> CONTACT</a>
+        </nav>
+        <form action="" class="Box">
+            <input type="search" name="search" id="Search" placeholder="search" >
+        </form>
+        <div class="icons">
+            <div id="login-botton" class="fa fa-user"></div>
+        </div>
+    </div>
+    </header> 
+    <!--bac-img-->
+    <div class="img">
+        <img src="img/library-book.png" alt="" width="100%" height="30%">
+    </div>
+     <!--slidebook-->
+     <section>
+
+    
+        <div class="slideshow-container">
+    
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img class="slide-img" src="img/book/america.jpg" style="height: 200%">
+              <div class="text"></div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img class="slide-img" src="img/book/ethanfrome.png" >
+              <div class="text"></div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img class="slide-img" src="img/book/blackbox.jpg" >
+              <div class="text"></div>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+        </section>
+    <!--Categories Section-->
+    <section id="categories">
+    <div class="row"> 
+        <div class="class-header">
+            <h2>Books Categories</h2>
+        </div>
+        <div class="header-books">
+            <div class="books">
+                <div class="book-img"> 
+                    <img src="img/cat1.png" alt="" width="100" height="100">
+                    <h4>Text Books</h4>
+                </div>
+            </div>
+            <div class="books">
+                <div class="book-img">
+                    <img src="img/cat2.png" alt="" width="100" height="100">
+                    <h4>Science</h4>
+                </div>
+            </div>
+            <div class="books">
+                <div class="book-img">
+                    <img src="img/cat3.png" alt="" width="100" height="100">
+                   <h4> History</h4>
+                </div>
+            </div>
+        </div>
+        <div class="header-books">
+            <div class="books">
+                <div class="book-img">
+                    <img src="img/cat4.png" alt=""width="100" height="100">
+                   <h4> Biography</h4>
+                </div>
+            </div>
+            <div class="books">
+                <div class="book-img">
+                    <img src="img/cat5.png" alt=""width="100" height="100">
+                    <h4>History</h4>
+                </div>
+            </div>
+            <div class="books">
+                <div class="book-img">
+                    <img src="img/cat6.png" alt=""width="100" height="100">
+                   <h4>News</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+   >
+    <!--About-->
+    <section id="about">
+        <div class="about-img">
+            <img src="img/about-img.png" alt="" width="600">
+        </div>
+        <div class="about-library"> 
+            <h2>About Library</h2>
+            <h5>For All Your Readings Need</h5>
+        </div>
+
+    </section>
+     <footer class="footer">
+        <h4> Contact</h4>
+        <h4> Company</h4>
+        <h4> Community</h4>
+        <h4> Follow</h4>
+     </footer>
+     <script src="index002.js"></script>
+</body>
+</html>
