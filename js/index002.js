@@ -22,7 +22,7 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-//button
+//button 
   //$( "#finger-btn" ).on( "click", function() {
   //  var navbar= document.getElementsById ("navBar")
   // $('.header')
